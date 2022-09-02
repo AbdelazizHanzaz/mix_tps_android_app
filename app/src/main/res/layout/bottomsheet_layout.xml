@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="@color/teal_700"
+    android:padding="16dp"
+    >
+
+   <TextView
+       android:layout_alignParentTop="true"
+       android:id="@+id/tv_title"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Add New Name"
+       android:textColor="@color/white"
+       android:gravity="center"
+       android:padding="4dp"
+       />
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Name Please!"
+        android:textColorHint="@color/teal_200"
+        android:layout_above="@id/btn_addName"
+        />
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="4dp"
+        android:id="@+id/btn_addName"
+        android:text="Add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
